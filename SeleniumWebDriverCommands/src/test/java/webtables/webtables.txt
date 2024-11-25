@@ -1,0 +1,13 @@
+//table[@class='dataTable'] - entire table
+//table[@class='dataTable']/tbody/tr[20]/td[4]  - 3rd row, 4th col
+//table[@class='dataTable']/tbody/tr[3] - entire 3rd row
+//table[@class='dataTable']/tbody/tr[3]/td - each cell in 3rd row
+//table[@class='dataTable']/tbody/tr/td[4] - entire 4th col
+//table[@class='dataTable']/tbody/tr - each row of table
+
+table.dataTable > tbody > tr:nth-child(3) > td:nth-child(4) - 3rd row, 4th col
+table.dataTable > tbody > tr:nth-child(3) - entire 3rd row
+table.dataTable > tbody > tr:nth-child(3) > td - each cell in 3rd row
+
+
+https://www.encodedna.com/javascript/demo/dynamically-add-or-remove-table-rows-using-javascript-and-save-data.htm

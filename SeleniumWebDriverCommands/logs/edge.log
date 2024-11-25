@@ -1,0 +1,125 @@
+[1591791347.599][INFO]: Starting MSEdgeDriver 83.0.478.45 (fa71536bbfc4d8c41db9e9b61b8b5f71c6c64f0c) on port 38244
+[1591791347.606][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+[1591791348.928][INFO]: [ef2f767cf3df86285e29e918399d4161] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "MicrosoftEdge",
+         "ms:edgeOptions": {
+            "args": [ "--disable-notifications", "--start-maximized", "ignore-certificate-errors" ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "eager"
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "MicrosoftEdge",
+      "ms:edgeOptions": {
+         "args": [ "--disable-notifications", "--start-maximized", "ignore-certificate-errors" ],
+         "extensions": [  ]
+      },
+      "pageLoadStrategy": "eager"
+   }
+}
+[1591791348.933][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1591791348.935][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1591791348.966][INFO]: Launching msedge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --load-extension="C:\Users\info\AppData\Local\Temp\scoped_dir8068_434928584\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\info\AppData\Local\Temp\scoped_dir8068_1040766255" data:,
+[1591791364.627][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1591791366.875][INFO]: [ef2f767cf3df86285e29e918399d4161] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "msedge",
+      "browserVersion": "83.0.478.45",
+      "ms:edgeOptions": {
+         "debuggerAddress": "localhost:52792"
+      },
+      "msedge": {
+         "msedgedriverVersion": "83.0.478.45 (fa71536bbfc4d8c41db9e9b61b8b5f71c6c64f0c)",
+         "userDataDir": "C:\\Users\\info\\AppData\\Local\\Temp\\scoped_dir8068_1040766255"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "eager",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ef2f767cf3df86285e29e918399d4161"
+}
+[1591791367.078][INFO]: [ef2f767cf3df86285e29e918399d4161] COMMAND Navigate {
+   "url": "https://untrusted-root.badssl.com/"
+}
+[1591791367.078][INFO]: Waiting for pending navigations...
+[1591791367.083][INFO]: Done waiting for pending navigations. Status: ok
+[1591791369.596][INFO]: Waiting for pending navigations...
+[1591791369.954][INFO]: Done waiting for pending navigations. Status: ok
+[1591791369.954][INFO]: [ef2f767cf3df86285e29e918399d4161] RESPONSE Navigate
