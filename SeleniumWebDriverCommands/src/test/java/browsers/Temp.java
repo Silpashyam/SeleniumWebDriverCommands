@@ -24,7 +24,7 @@ public class Temp {
 
 		WebDriver driver = null;
 		driver = new FirefoxDriver();
-		driver = new EdgeDriver();
+		// driver = new EdgeDriver();
 		driver = new ChromeDriver();
 		
 		
